@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Logic Gate Computer</title>
+    <link rel="stylesheet" type="text/css" href="Christmas%20Project.css">
+    <Script src="Christmas%20Project.js"></Script>
+</head>
+
+<b>
+<h1>Logic Gate Computer</h1>
+<form>
+    <label>Select a Gate:</label><br><br>
+    <input type="radio" id="r1" name="gate" value="AND" checked="checked">AND<br>
+    <input type="radio" id="r2" name="gate" value="OR">OR<br>
+    <input type="radio" id="r3" name="gate" value="XOR">XOR<br>
+    <input type="radio" id="r4" name="gate" value="NOR">NOR<br>
+    <input type="radio" id="r5" name="gate" value="NAND">NAND<br><br>
+    Select First Input
+    <select>
+        <option value=0 id="f1">0</option>
+        <option value=1 id="f2">1</option>
+    </select><br><br>
+    Select Second Input
+    <select>
+        <option value=0 id="s1">0</option>
+        <option value=1 id="s2">1</option>
+    </select><br>
+</form><br>
+<button onclick="logic()">Submit</button><br><br>
+OUTPUT:
+<div id='out'>___</div><br><br>
+    <img id="i" src="logic%20gates.png"><br><br>
+</body>
+</html>
